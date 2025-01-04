@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="NO">
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9Tk-ff-3cE">
+                                <rect key="frame" x="137.5" y="286.5" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="9Tk-ff-3cE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7mj-Wk-XiL"/>
+                            <constraint firstItem="9Tk-ff-3cE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="j2Y-Jh-Xk9"/>
+                            <constraint firstItem="9Tk-ff-3cE" firstAttribute="width" constant="150" id="7D9-wV-LWn"/>
+                            <constraint firstItem="9Tk-ff-3cE" firstAttribute="height" constant="150" id="A4T-e6-Qz5"/>
+                        </constraints>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Qr-eY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
